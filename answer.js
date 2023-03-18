@@ -38,8 +38,7 @@ var minCostConnectPoints = function(points) {
     let answer = 0;
 
     //lets assume each vertex is represented by its index
-    let initial = 0;
-    included[initial] = 1;
+    included[0] = 1;
 
 
     for (let k = 0; k < maxEdges; k++) {
